@@ -1,0 +1,41 @@
+/* @import "tailwindcss"; */
+/* body { */
+  /* margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #111827, #000);
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.sidebar, .chat, .notes, .todo {
+  background-color: #1f2937;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-done {
+  text-decoration: line-through;
+  color: #888;
+} */
