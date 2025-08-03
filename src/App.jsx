@@ -5,7 +5,7 @@ export default function App() {
   const [city,setCity] = useState('');
   const [whetherData, setWhetherData] = useState(null);
   const fetchWhetherData  = async() => {
-   try{ const response = await fetch( `https://api.weatherapi.com/v1/current.json?key=8c6c38a922564962b6524143251707&q=${city}`)
+   try{ const response = await fetch( `'Your Api'=${city}`)
     const data = await response.json();
     setWhetherData(data);
   }catch(error){
